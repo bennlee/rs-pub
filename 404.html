@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Raid Simulator</title>
+    <script>
+      // SPA fallback for GitHub Pages.
+      // Preserve the full path/query/hash in sessionStorage,
+      // then redirect to the repo root so index.html loads.
+      var l = window.location;
+      sessionStorage.redirect = l.pathname + l.search + l.hash;
+      l.replace(l.protocol + '//' + l.host + '/rs-pub/');
+    </script>
+  </head>
+  <body></body>
+</html>
